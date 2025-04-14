@@ -1,0 +1,4 @@
+=> Change code such that exception in fetching from one LLM does not impact results from others.
+
+=> Use explain with AI to understand the request, response code functionality.
+

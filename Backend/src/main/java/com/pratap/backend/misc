@@ -1,0 +1,22 @@
+
+Expected API Response Format :
+
+{
+  "results": [
+    {
+      "model": "OpenAI (GPT-4o)",
+      "response": "The response text...",
+      "responseTime": 1200
+    },
+    {
+      "model": "Anthropic (Claude)",
+      "response": "The response text...",
+      "responseTime": 1500
+    },
+    {
+      "model": "Ollama (llama3.2)",
+      "response": "The response text...",
+      "responseTime": 2000
+    }
+  ]
+}

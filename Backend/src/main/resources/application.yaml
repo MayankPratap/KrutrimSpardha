@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: backend
+  ai:
+    openai:
+      api-key: your_open_ai_key.
+    anthropic:
+      api-key: your_anthropic_key.
+    ollama:
+      chat:
+        options:
+          model: llama3.2
+
+
+
+      
