@@ -24,7 +24,7 @@ const MODELS = [
 
 export function LLMComparisonApp() {
   const [prompt, setPrompt] = useState("")
-  const API_URL = " https://3ec6-2409-40f2-118a-158e-48ad-1c44-1a7b-534d.ngrok-free.app/api/v1/compare" // Change this value to update the API endpoint
+  const API_URL = " https://05f2-2409-40f2-118a-158e-48ad-1c44-1a7b-534d.ngrok-free.app/api/v1/compare" // Change this value to update the API endpoint
   const [isLoading, setIsLoading] = useState(false)
   const [results, setResults] = useState<ModelResult[]>([])
   const { toast } = useToast()
